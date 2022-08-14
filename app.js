@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
   resette.addEventListener('click', resetten)
   function ueZeit() {
     uebZeit = (anzahl * capacity * volt) / watt;
-    losungUeber.innerText = `Die Überbrückungszeit beträgt ${uebZeit} Stunden.`;
+    losungUeber.innerText = `Die Überbrückungszeit beträgt ${uebZeit} Stunden. Das sind ${uebZeit*60} Minuten.`;
     losungUeber.style.display = "block";
   }
   function anzahlAkku() {
