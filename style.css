@@ -1,0 +1,75 @@
+
+body {
+    margin: 0 20px;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("https://images.unsplash.com/photo-1451807278147-2e0e1e90b24d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.berechnung {
+    width: auto;
+    height:20vh;
+    display: flex;
+   
+    justify-content: space-between;
+    align-items: center;
+
+}
+.berechnung div {
+    padding: 0 5px;
+    width: 200px;
+}
+
+#loesung-uber {
+    display:none;
+    font-size: 2.5rem;
+    background-color: aliceblue;
+
+}
+#loesung-anzahl {
+    display:none;
+    font-size: 2.5rem;
+    background-color: aliceblue;
+
+}
+#loesung-capacity {
+    display:none;
+    font-size: 2.5rem;
+    background-color: aliceblue;
+
+}
+#loesung-volt {
+    display:none;
+    font-size: 2.5rem;
+    background-color: aliceblue;
+
+}
+#loesung-watt {
+    display:none;
+    font-size: 2.5rem;
+    background-color: aliceblue;
+
+}
+
+#btn, #reset {
+margin: 10px;
+
+padding: 5px 10px;
+font-size: 1rem;
+background-color: black;
+color: white;
+border-style: none;
+border-radius: 10px;
+}
+
+.buttons {
+    display: flex;
+}
+
+img {
+    width: 60%;
+   
+}
